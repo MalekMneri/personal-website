@@ -4055,6 +4055,10 @@ button.btn--pill {
   color: var(--color-text);
   margin-right: 0.2rem;
 }
+.resume-block__header-logo {
+  font-size: var(--text-display-1);
+  text-align: center;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -4075,7 +4079,7 @@ button.btn--pill {
  * ------------------------------------------------------------------- */
 .s-portfolio {
   background-color: var(--color-gray-1);
-  padding-top: calc(6 * var(--space));
+  padding-top: var(--space);
   padding-bottom: var(--vspace-5);
 }
 
