@@ -4289,7 +4289,7 @@ button.btn--pill {
 }
 
 .cta-content {
-  max-width: 800px;
+  max-width: 90%;
 }
 
 .cta-content .btn {
@@ -4312,7 +4312,7 @@ button.btn--pill {
 
 @media screen and (max-width: 600px) {
   .s-cta .section-desc {
-    font-size: var(--text-xl);
+    font-size: var(--text-display-1);
     line-height: var(--vspace-1_25);
   }
 }
@@ -4321,7 +4321,7 @@ button.btn--pill {
   .s-cta {
     padding-top: var(--vspace-3);
     padding-bottom: var(--vspace-3);
-    font-size: var(--text-size);
+    font-size: var(--text-display-1);
   }
   .s-cta .section-desc {
     font-size: var(--text-lg);
